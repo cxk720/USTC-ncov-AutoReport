@@ -88,7 +88,6 @@ class Report(object):
             'showCode': '',
             'button': '',
         }	
-        }
         session = requests.Session()
         session.post(url, data=data)
 
